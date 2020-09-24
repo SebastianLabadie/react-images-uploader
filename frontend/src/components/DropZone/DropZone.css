@@ -1,17 +1,33 @@
 .dropzone {
-    width: 338px;
-    height: 219px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: space-evenly; */
-    background: #F6F8FB;
-    border: 1px dashed #97BEF4;
-    border-radius: 12px;
-  
-    
+  outline: none;
+  width: 338px;
+  height: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: space-evenly; 
+  background: #f6f8fb;
+  border: 1px dashed #97bef4;
+  border-radius: 12px;
 }
+.active {
+  border: 1px dashed #851930;
+}
+
 .image {
-            width: 30%;
-            margin-top: 5%;
-        }
+  width: 30%;
+  margin-top: 5%;
+}
+
+.dropzone-message {
+  /* Drag & Drop your image here */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.035em;
+
+  color: #bdbdbd;
+}
